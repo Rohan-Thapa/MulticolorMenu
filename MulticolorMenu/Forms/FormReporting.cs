@@ -15,6 +15,22 @@ namespace MulticolorMenu.Forms
         public FormReporting()
         {
             InitializeComponent();
+            LoadTheme();
+        }
+
+        private void LoadTheme()
+        {
+            foreach (Control btn in this.Controls)
+            {
+                if (btn.GetType() == typeof(Button))
+                {
+                    Button button = (Button)btn;
+                    button.BackColor = ThemeColor.PrimaryColor;
+                    button.ForeColor = Color.White;
+                    button.FlatAppearance.BorderColor = ThemeColor.SecondaryColor;
+                }
+            }
+            WelcomeTxt.ForeColor = ThemeColor.SecondaryColor;
         }
     }
 }

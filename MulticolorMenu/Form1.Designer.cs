@@ -362,7 +362,7 @@
             // pictureBox2
             // 
             pictureBox2.Anchor = AnchorStyles.None;
-            pictureBox2.Image = Properties.Resources.Logo_300x300;
+            pictureBox2.Image = Properties.Resources.logo;
             pictureBox2.Location = new Point(351, 122);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(353, 321);

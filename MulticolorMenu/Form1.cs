@@ -100,7 +100,7 @@ namespace MulticolorMenu
             OpenChildForm(new Forms.FormLoader(), sender);
             // Setting the timer
             System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
-            timer.Interval = 3000; // 3 seconds wait
+            timer.Interval = 2000; // 2 seconds wait
             timer.Tick += (s, args) => 
             {
                 timer.Stop();
@@ -115,7 +115,7 @@ namespace MulticolorMenu
             OpenChildForm(new Forms.FormLoader(), sender);
             // Setting the timer
             System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
-            timer.Interval = 3000; // 3 seconds wait
+            timer.Interval = 2000; // 2 seconds wait
             timer.Tick += (s, args) =>
             {
                 timer.Stop();
@@ -130,7 +130,7 @@ namespace MulticolorMenu
             OpenChildForm(new Forms.FormLoader(), sender);
             // Setting the timer
             System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
-            timer.Interval = 3000; // 3 seconds wait
+            timer.Interval = 2000; // 2 seconds wait
             timer.Tick += (s, args) =>
             {
                 timer.Stop();
@@ -145,7 +145,7 @@ namespace MulticolorMenu
             OpenChildForm(new Forms.FormLoader(), sender);
             // Setting the timer
             System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
-            timer.Interval = 3000; // 3 seconds wait
+            timer.Interval = 2000; // 2 seconds wait
             timer.Tick += (s, args) =>
             {
                 timer.Stop();
@@ -160,7 +160,7 @@ namespace MulticolorMenu
             OpenChildForm(new Forms.FormLoader(), sender);
             // Setting the timer
             System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
-            timer.Interval = 3000; // 3 seconds wait
+            timer.Interval = 2000; // 2 seconds wait
             timer.Tick += (s, args) =>
             {
                 timer.Stop();
@@ -175,7 +175,7 @@ namespace MulticolorMenu
             OpenChildForm(new Forms.FormLoader(), sender);
             // Setting the timer
             System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
-            timer.Interval = 3000; // 3 seconds wait
+            timer.Interval = 2000; // 2 seconds wait
             timer.Tick += (s, args) =>
             {
                 timer.Stop();

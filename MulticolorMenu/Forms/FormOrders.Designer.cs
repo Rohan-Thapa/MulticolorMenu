@@ -28,25 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            WelcomeTxt = new Label();
+            welcomebtn = new Button();
             SuspendLayout();
             // 
-            // label1
+            // WelcomeTxt
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("SimSun", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(418, 68);
-            label1.Name = "label1";
-            label1.Size = new Size(328, 30);
-            label1.TabIndex = 0;
-            label1.Text = "Welcome to the Orders";
+            WelcomeTxt.AutoSize = true;
+            WelcomeTxt.Font = new Font("SimSun", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            WelcomeTxt.Location = new Point(353, 26);
+            WelcomeTxt.Name = "WelcomeTxt";
+            WelcomeTxt.Size = new Size(448, 30);
+            WelcomeTxt.TabIndex = 0;
+            WelcomeTxt.Text = "Welcome to the Orders Section";
+            // 
+            // welcomebtn
+            // 
+            welcomebtn.Location = new Point(487, 282);
+            welcomebtn.Name = "welcomebtn";
+            welcomebtn.Size = new Size(222, 102);
+            welcomebtn.TabIndex = 1;
+            welcomebtn.Text = "Welcome";
+            welcomebtn.UseVisualStyleBackColor = true;
             // 
             // FormOrders
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1146, 599);
-            Controls.Add(label1);
+            Controls.Add(welcomebtn);
+            Controls.Add(WelcomeTxt);
             Name = "FormOrders";
             Text = "Orders";
             ResumeLayout(false);
@@ -55,6 +66,7 @@
 
         #endregion
 
-        private Label label1;
+        private Label WelcomeTxt;
+        private Button welcomebtn;
     }
 }

@@ -128,21 +128,61 @@ namespace MulticolorMenu
         private void btnCustomer_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormLoader(), sender);
+            // Setting the timer
+            System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
+            timer.Interval = 3000; // 3 seconds wait
+            timer.Tick += (s, args) =>
+            {
+                timer.Stop();
+                // Opening the content of the main form
+                OpenChildForm(new Forms.FormCustomer(), sender);
+            };
+            timer.Start();
         }
 
         private void btnReporting_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormLoader(), sender);
+            // Setting the timer
+            System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
+            timer.Interval = 3000; // 3 seconds wait
+            timer.Tick += (s, args) =>
+            {
+                timer.Stop();
+                // Opening the content of the main form
+                OpenChildForm(new Forms.FormReporting(), sender);
+            };
+            timer.Start();
         }
 
         private void btnNotifications_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormLoader(), sender);
+            // Setting the timer
+            System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
+            timer.Interval = 3000; // 3 seconds wait
+            timer.Tick += (s, args) =>
+            {
+                timer.Stop();
+                // Opening the content of the main form
+                OpenChildForm(new Forms.FormNotifications(), sender);
+            };
+            timer.Start();
         }
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormLoader(), sender);
+            // Setting the timer
+            System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
+            timer.Interval = 3000; // 3 seconds wait
+            timer.Tick += (s, args) =>
+            {
+                timer.Stop();
+                // Opening the content of the main form
+                OpenChildForm(new Forms.FormSettings(), sender);
+            };
+            timer.Start();
         }
 
         private void Form1_Load(object sender, EventArgs e)

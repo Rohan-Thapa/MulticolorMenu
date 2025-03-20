@@ -1,6 +1,6 @@
 ﻿namespace MulticolorMenu.Forms
 {
-    partial class FormProducts
+    partial class FormNotifications
     {
         /// <summary>
         /// Required designer variable.
@@ -36,30 +36,30 @@
             // 
             WelcomeTxt.AutoSize = true;
             WelcomeTxt.Font = new Font("SimSun", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            WelcomeTxt.Location = new Point(342, 26);
+            WelcomeTxt.Location = new Point(307, 37);
             WelcomeTxt.Name = "WelcomeTxt";
-            WelcomeTxt.Size = new Size(463, 30);
+            WelcomeTxt.Size = new Size(493, 30);
             WelcomeTxt.TabIndex = 0;
-            WelcomeTxt.Text = "Welcome to the Product Section";
+            WelcomeTxt.Text = "Welcome to Notifications Section";
             // 
             // welcomebtn
             // 
-            welcomebtn.Location = new Point(450, 256);
+            welcomebtn.Location = new Point(409, 242);
             welcomebtn.Name = "welcomebtn";
-            welcomebtn.Size = new Size(197, 90);
+            welcomebtn.Size = new Size(220, 113);
             welcomebtn.TabIndex = 1;
             welcomebtn.Text = "Welcome";
             welcomebtn.UseVisualStyleBackColor = true;
             // 
-            // FormProducts
+            // FormNotifications
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1146, 599);
             Controls.Add(welcomebtn);
             Controls.Add(WelcomeTxt);
-            Name = "FormProducts";
-            Text = "Products";
+            Name = "FormNotifications";
+            Text = "Notifications";
             ResumeLayout(false);
             PerformLayout();
         }

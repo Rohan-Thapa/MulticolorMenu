@@ -1,6 +1,6 @@
 ﻿namespace MulticolorMenu.Forms
 {
-    partial class FormProducts
+    partial class FormCustomer
     {
         /// <summary>
         /// Required designer variable.
@@ -36,30 +36,30 @@
             // 
             WelcomeTxt.AutoSize = true;
             WelcomeTxt.Font = new Font("SimSun", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            WelcomeTxt.Location = new Point(342, 26);
+            WelcomeTxt.Location = new Point(377, 45);
             WelcomeTxt.Name = "WelcomeTxt";
-            WelcomeTxt.Size = new Size(463, 30);
+            WelcomeTxt.Size = new Size(418, 30);
             WelcomeTxt.TabIndex = 0;
-            WelcomeTxt.Text = "Welcome to the Product Section";
+            WelcomeTxt.Text = "Welcome to Customer Section";
             // 
             // welcomebtn
             // 
-            welcomebtn.Location = new Point(450, 256);
+            welcomebtn.Location = new Point(496, 247);
             welcomebtn.Name = "welcomebtn";
-            welcomebtn.Size = new Size(197, 90);
+            welcomebtn.Size = new Size(196, 82);
             welcomebtn.TabIndex = 1;
             welcomebtn.Text = "Welcome";
             welcomebtn.UseVisualStyleBackColor = true;
             // 
-            // FormProducts
+            // FormCustomer
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1146, 599);
             Controls.Add(welcomebtn);
             Controls.Add(WelcomeTxt);
-            Name = "FormProducts";
-            Text = "Products";
+            Name = "FormCustomer";
+            Text = "Customers";
             ResumeLayout(false);
             PerformLayout();
         }

@@ -54,7 +54,7 @@ namespace MulticolorMenu
                     currentButton = (Button)btnSender;
                     currentButton.BackColor = color;
                     currentButton.ForeColor = Color.White;
-                    currentButton.Font = new Font("Segoe UI", 11.5f, FontStyle.Bold);
+                    currentButton.Font = new Font("Segoe UI", 10f, FontStyle.Bold);
                     panelTitleBar.BackColor = ThemeColor.ChangeColorBrightness(color, -0.3);
                     ThemeColor.PrimaryColor = color;
                     ThemeColor.SecondaryColor = ThemeColor.ChangeColorBrightness(color, -0.3);
@@ -71,7 +71,7 @@ namespace MulticolorMenu
                 {
                     previousBtn.BackColor = Color.FromArgb(51, 51, 76);
                     previousBtn.ForeColor = Color.Gainsboro;
-                    previousBtn.Font = new Font("Segoe UI", 10f, FontStyle.Regular);
+                    previousBtn.Font = new Font("Segoe UI", 9f, FontStyle.Regular);
                 }
             }
         }
